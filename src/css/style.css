@@ -1,0 +1,77 @@
+.NavLinks{
+  margin-left: 10px;
+  color: #fff;
+  text-decoration: none;
+  margin-top:7px;
+}
+
+.navbar{
+  /* padding: 20px; */
+}
+
+.navbarHeadr{
+  font-size: 25px;
+  color: #fff;
+  padding: 10px;
+}
+
+.NavLinks:hover, .navbarHeadr:hover{
+  color: #f7e67d;
+  text-decoration: none;
+
+}
+
+.active{
+  color: #f7e67d;
+}
+
+.pageheader{
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.noItem{
+  color: red;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.ItemList{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.items{
+  margin-bottom: 10px;
+}
+
+
+.items .name{
+  font-size: 18px;
+}
+
+.items .btn{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+
+.homPage{
+  position: relative;
+}
+
+.alert-success{
+  position: absolute;
+  width: 300px;
+  top: 0;
+  left: -300px;
+  transition: all .5s ease-in-out;
+}
+
+.alertactive{
+  left: 0;
+}
